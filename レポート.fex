@@ -1,0 +1,25 @@
+-* File: IBFS:/localhost/WFC/Repository/ekida/プロシジャ4.fex Created by WebFOCUS AppStudio
+TABLE FILE CAR
+SUM 
+     CAR.BODY.SALES
+BY  CAR.ORIGIN.COUNTRY
+HEADING
+"Excel出力"
+ON TABLE NOTOTAL
+ON TABLE PCHOLD FORMAT HTML
+ON TABLE SET HTMLEMBEDIMG ON
+ON TABLE SET STYLE *
+$
+TYPE=HEADING,
+     LINE=1,
+     OBJECT=TEXT,
+     ITEM=1,
+     FOCEXEC=IBFS:/WFC/Repository/ekida/レポート.fex( \
+     WFFMT='XLSX' \
+     COUNTRY=CAR.ORIGIN.COUNTRY \
+     SALES=CAR.BODY.SALES \
+     ),
+          TARGET='_',
+$
+ENDSTYLE
+END

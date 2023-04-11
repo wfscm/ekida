@@ -1,0 +1,18 @@
+-* File: IBFS:/localhost/WFC/Repository/ekida/プロシジャ4.fex Created by WebFOCUS AppStudio
+-*TABLE FILE CAR
+-* SUM SALES
+-* BY  COUNTRY
+-* ON TABLE PCHOLD FORMAT XLSX
+-*END
+-*
+-*DEFINE FILE CAR
+-*IMG/A50 WITH CAR='<img src=http://localhost/ibi_apps/ibfs/WFC/Repository/TEST.GIF';
+-*END
+
+TABLE FILE CAR
+FOOTING
+"-INCLUDE C:\IBI\APPS\TEST.GIF"
+SUM SALES NOPRINT
+BY COUNTRY 
+ON TABLE PCHOLD FORMAT EXL2K
+END

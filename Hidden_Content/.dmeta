@@ -3,8 +3,8 @@
     <properties size="1">
         <entry key="hidden" value="on"/>
     </properties>
-    <extendedProperties _jt="HashMap" loadFactor="0.75" threshold="0"/>
-    <nlsValues _jt="HashMap" loadFactor="0.75" threshold="12">
+    <extendedProperties _jt="HashMap"/>
+    <nlsValues _jt="HashMap">
         <entry>
             <key _jt="string" value="ja_JP"/>
             <value _jt="ArrayList" size="2">

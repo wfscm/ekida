@@ -2,7 +2,7 @@
 <rootObject _jt="IBFSMRObject" binary="false" defaultLng="ja_JP" dummy="false" expireDate="0" length="0" type="FexFile">
     <properties size="4">
         <entry key="InsightDesigner" value="true"/>
-        <entry key="LastDescribed" value="1776818338167"/>
+        <entry key="LastDescribed" value="1776825263641"/>
         <entry key="masters" value="&quot;ibisamp/car"/>
         <entry key="tool" value="infoAssist,report,IAFull"/>
     </properties>

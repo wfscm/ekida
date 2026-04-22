@@ -4,13 +4,12 @@
         <entry key="loadiniframe" value="yes"/>
         <entry key="tool" value="htmlcanvas"/>
     </properties>
-    <extendedProperties _jt="HashMap" loadFactor="0.75" threshold="0"/>
-    <nlsValues _jt="HashMap" loadFactor="0.75" threshold="12">
+    <extendedProperties _jt="HashMap"/>
+    <nlsValues _jt="HashMap">
         <entry>
             <key _jt="string" value="ja_JP"/>
             <value _jt="ArrayList" size="2">
                 <item _jt="string" index="0" value="test"/>
-                <item _jt="string" index="1" value=""/>
             </value>
         </entry>
     </nlsValues>

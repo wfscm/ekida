@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <rootObject _jt="IBFSMRObject" appName="ibisamp" binary="false" defaultLng="ja_JP" dummy="false" expireDate="0" length="0" rsName="EDASERVE" type="FexFile">
     <properties size="2">
-        <entry key="LastDescribed" value="1776818529089"/>
+        <entry key="LastDescribed" value="1776825264526"/>
         <entry key="tool" value="editor"/>
     </properties>
+    <extendedProperties _jt="HashMap"/>
     <nlsValues _jt="HashMap">
         <entry>
             <key _jt="string" value="ja_JP"/>
-            <value _jt="ArrayList" size="1">
+            <value _jt="ArrayList" size="2">
                 <item _jt="string" index="0" value="喜田テスト"/>
             </value>
         </entry>
